@@ -1,0 +1,25 @@
+{
+  "best_model": "Gradient Boosting",
+  "train_rows": 4000,
+  "test_rows": 1000,
+  "results": {
+    "Ridge Regression": {
+      "cv_RMSE": 2.039,
+      "MAE": 1.574,
+      "RMSE": 2.057,
+      "R2": 0.83
+    },
+    "Random Forest": {
+      "cv_RMSE": 1.26,
+      "MAE": 0.994,
+      "RMSE": 1.277,
+      "R2": 0.934
+    },
+    "Gradient Boosting": {
+      "cv_RMSE": 1.09,
+      "MAE": 0.867,
+      "RMSE": 1.1,
+      "R2": 0.951
+    }
+  }
+}
