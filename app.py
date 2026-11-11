@@ -1,7 +1,3 @@
-"""Streamlit frontend for the Milk Yield Predictor.
-
-Run:  streamlit run app.py
-"""
 import streamlit as st
 
 from src import config
